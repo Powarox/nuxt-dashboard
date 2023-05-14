@@ -1,18 +1,18 @@
 <template>
-    <div id="transaction">
-        <h1>Transaction Page</h1>
+    <div id="dashboard">
+        <h1>Dashboard Page</h1>
     </div>
 </template>
 
 <script lang="ts">
 
 export default {
-    name: 'Transaction',
+    name: 'Dashboard',
 }
 </script>
 
 <style scoped lang="css">
-    #transaction {
+    #dashboard {
         height: 100%;
         padding: 20px;
     }

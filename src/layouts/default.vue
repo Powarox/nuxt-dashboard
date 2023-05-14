@@ -15,6 +15,7 @@
         padding: 30px;
         display: flex;
         overflow: hidden;
+        /* background: #f8f9fe; */
     }
 
     .container {

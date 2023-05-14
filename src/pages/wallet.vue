@@ -11,4 +11,9 @@ export default {
 }
 </script>
 
-<style scoped lang="css"></style>
+<style scoped lang="css">
+    #wallet {
+        height: 100%;
+        padding: 20px;
+    }
+</style>
