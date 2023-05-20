@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [master, ci/deploy-application-github]
+    branches: [master]
   pull_request:
     branches: [ master ]
 
@@ -28,8 +28,8 @@ jobs:
       - name: Build Site
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build 
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./build 
