@@ -9,6 +9,10 @@
 export default {
     name: 'Home',
 }
+
+definePageMeta({
+  middleware: 'auth',
+});
 </script>
 
 <style scoped lang="css">
