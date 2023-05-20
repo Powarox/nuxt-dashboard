@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
     srcDir: 'src',
     modules: [
-        // '@nuxtjs/tailwindcss'
+        '@nuxtjs/supabase',
+        // '@nuxtjs/tailwindcss',
     ],
     css: ['vuetify/lib/styles/main.sass','@mdi/font/css/materialdesignicons.css'],
     build: {
